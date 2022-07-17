@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@efox/emp": "^2.3.8"
+  }
+}
