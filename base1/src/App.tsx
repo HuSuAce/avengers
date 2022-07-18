@@ -2,14 +2,13 @@ import React from 'react'
 import {Button} from 'src/Button'
 import StoreComp from './StoreComp'
 import incStore from './store/incStore'
-export {Button, StoreComp, incStore}
-const App = () => {
+// export {Button, StoreComp, incStore}
+export const App = () => {
   return (
     <>
-      <h1>Micro Host</h1>
+      <h1>Base1</h1>
       <StoreComp />
-      <Button customLabel="HOST" />
     </>
   )
 }
-export default App
+// export default App

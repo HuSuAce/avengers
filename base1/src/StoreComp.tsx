@@ -1,4 +1,4 @@
-import {observer} from 'mobx-react-lite'
+import {observer} from 'mobx-react'
 import incStore from './store/incStore'
 const StoreComp = observer(() => {
   return (
@@ -11,7 +11,7 @@ const StoreComp = observer(() => {
           incStore.loadData()
         }}
       >
-        +1
+        +1(baseButton)
       </button>
     </>
   )

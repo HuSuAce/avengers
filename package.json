@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@efox/emp": "^2.3.8"
+    "@efox/emp": "^2.3.8",
+    "@efox/eslint-config-react": "^2.3.0"
   }
 }

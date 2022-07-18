@@ -1,6 +1,6 @@
-import {observer} from 'mobx-react'
+import {observer} from 'mobx-react-lite'
 import incStore from './store/incStore'
-const StoreComp = observer(() => {
+const ProjectStoreComp = observer(() => {
   return (
     <>
       <p>{incStore.num}</p>
@@ -11,9 +11,9 @@ const StoreComp = observer(() => {
           incStore.loadData()
         }}
       >
-        +1
+        +1(project button)
       </button>
     </>
   )
 })
-export default StoreComp
+export default ProjectStoreComp
