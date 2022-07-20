@@ -1,6 +1,6 @@
 import {observer} from 'mobx-react-lite'
 import incStore from './store/incStore'
-const ProjectStoreComp = observer(() => {
+const PortalStoreComp = observer(() => {
   return (
     <>
       <p>{incStore.num}</p>
@@ -16,4 +16,4 @@ const ProjectStoreComp = observer(() => {
     </>
   )
 })
-export default ProjectStoreComp
+export default PortalStoreComp
